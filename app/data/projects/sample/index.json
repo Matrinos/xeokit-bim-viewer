@@ -1,0 +1,28 @@
+{
+  "id": "sample",
+  "name": "ifc Sample",
+  "models": [
+    {
+      "id": "design",
+      "name": "ifc Sample"
+    }
+  ],
+  "viewerConfigs": {
+    "backgroundColor": [
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  "viewerContent": {
+    "modelsLoaded": [
+      "design"
+    ]
+  },
+  "viewerState": {
+    "tabOpen": "objects",
+    "expandObjectsTree": 3,
+    "expandClassesTree": 1,
+    "expandStoreysTree": 1
+  }
+}
