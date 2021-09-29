@@ -4,9 +4,10 @@ import {terser} from "rollup-plugin-terser";
 export default {
     input: './index.js',
     output: {
-        file: './dist/xeokit-bim-viewer.es.js',
+        file: './app/xeokit-bim-viewer.es.js',
         format: 'es',
-        name: 'bundle'
+        name: 'bundle',
+        sourcemap: 'inline',
     },
     plugins: [
         nodeResolve(),

@@ -47,6 +47,6 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
-    "@xeokit/xeokit-sdk": "2.0.0-beta.24"
+    "@xeokit/xeokit-sdk": "file:../xeokit-sdk"
   }
 }
