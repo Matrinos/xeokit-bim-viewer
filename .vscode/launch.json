@@ -2,10 +2,12 @@
     "version": "0.2.0",
     "configurations": [
       {
+        "sourceMaps": true,
         "type": "pwa-chrome",
         "request": "launch",
         "name": "Launch index.html",
-        "url": "http://localhost:5000?projectId=qq"
+        "url": "http://localhost:5000?projectId=qq",
+        "outFiles": [ "${workspaceRoot}/src/**/*.js",  "${workspaceRoot}/node_modules/@xeokit/xeokit-sdk/**/*.js" ]
         // "file": "${workspaceFolder}/app/index.html?projectId=qq"
       }
     ]
